@@ -2,32 +2,32 @@
 
 # SITE SETTINGS
 # title of site appears in banner
-title: CollectionBuilder-GH 
+title: Katia's Trial Collection
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: collection-metadata  
+metadata: trial-metadata  
 # repository is the github repository's full url: 
 # replace CollectionBuilder with your GitHub username and replace 'collectionbuilder-gh' with the name of your repository
-repository: https://github.com/CollectionBuilder/collectionbuilder-gh
+repository: https://github.com/Kat-A-T/CB_Test
 
 # WEBSITE HEADER and HEAD metadata for SEO
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: a template for creating simple digital exhibits
+tagline: a test of Collection Builder
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "CollectionBuilder-GH is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"
 # keywords appear in meta tags
-keywords: "university of idaho, digital collections, digital humanities"
+keywords: "glass;stereo card;Horseshoe Falls;winter;Niagara Falls;Table Rock;Whirlpool Rapids;train;suspension bridge;Horseshoe Falls;Burning Spring;Monteagle House;Terrapin Tower;wooden bridge;Goat Island;Three Sister Islands;rapids;boat;Niagara River Steamer;Point View;Horse Shoe Falls;Free Niagara;Prospect Point;American Falls;Luna Island;Elevator Tower;ice mountain;Goat Island;Pennsylvania"
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: Kat-A-T
 
 
 # HOME PAGE SECTION
 # give full filename including folder. This image will also appear in meta tags for search and social media
-home-banner-image: "objects/test011.jpg"
+home-banner-image: "objects/Glass6.jpg"
 # enter object-id of the above item in order to link to the featured image
-home-banner-image-objectid: test011 
+home-banner-image-objectid: 1 
 # give title of the image for accessibility
-home-banner-image-title: Snowstorm Concentrator, Troy, Montana. No. 6. 
+home-banner-image-title: Glass stereo card - Horseshoe Falls in winter 
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: # Default is 8em
 # optional: change position of image, center, top, bottom
@@ -40,31 +40,21 @@ featured-subjects: # if left blank, will be automatically generated to create to
 # set number of top subjects to display if auto generating
 featured-subjects-max: 5 
 # Same as subjects above. Leave blank for automatically genearated locations. Or add locations you'd like to feature. For list see data/places.csv
-featured-locations: Moscow, Idaho; Tacoma, Washington; Pullman, Washington; Spokane, Washington #separate by semi-colon(';') - if left blank, will be automatically generated to create top 5 locations
+featured-locations: #separate by semi-colon(';') - if left blank, will be automatically generated to create top 5 locations
 featured-locations-max: 3
-mediatypes: images;documents;sound;video #options[documents,images,video,sound,data] separate semi-colon(';'). If semi-colon is present, the browse items on the browse page will display a type field. If only one media type (and thus no semi-colon), no type field will display
+mediatypes: images #options[documents,images,video,sound,data] separate semi-colon(';'). If semi-colon is present, the browse items on the browse page will display a type field. If only one media type (and thus no semi-colon), no type field will display
 
 # ABOUT PAGE
 # Turn the about page on or off. "true" means you will have an about page 
 about-page: true # options [true / false] 
 # Featured image on About page - if left blank, CB will use image featured on the home page
 # give filename including folder
-about-featured-image: objects/test012.jpg
-about-featured-image-alt: "Administration Building, University of Idaho"
+about-featured-image: objects/2.jpg
+about-featured-image-alt: "Glass stereo card -  Table Rock by the brink of the Horseshoe Falls in winter"
 
 # BROWSE PAGE
 # see _data/browse-config.csv for field display options
 # fields given the "btn" option can be multivalued with ";" such as subjects.
-
-# MAP PAGE
-# see _data/map-config.csv for field display options
-latitude: 46.727485 #to determine center of map
-longitude: -117.014185 #to determine center of map
-zoom-level: 7 # zoom level for map 
-map-search: true # not suggested with large collections
-map-search-fuzziness: 0.35 # fuzzy search range from 1 = anything to 0 = exact match only
-map-cluster: true # suggested for large collection or with many items in same location
-map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 
 # SUBJECT PAGE
 subjects-off: false # true / false, turns off subject generation to lower dev build time (then page doesn't work!)
@@ -72,7 +62,7 @@ subject-min: 1 # min size for subject cloud, too many terms = slow load time!
 stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
 # TIMELINE PAGE
-year-navigation: #"1900;1905;1910;1915;1920" # set years to appear in dropdown nav
+year-navigation: #"" # set years to appear in dropdown nav
 year-nav-increment: 5 # set increments when auto gen nav years
 
 # ITEM PAGE
