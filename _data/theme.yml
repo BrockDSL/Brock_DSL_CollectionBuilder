@@ -11,7 +11,7 @@ repository: https://github.com/Kat-A-T/Brock_DSL_CollectionBuilder
 
 # WEBSITE HEADER and HEAD metadata for SEO
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: a test of Collection Builder
+tagline: A Test of Collection Builder for the Brock Digital Scholarship Lab
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "CollectionBuilder-GH is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"
