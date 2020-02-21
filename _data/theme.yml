@@ -79,10 +79,6 @@ stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;b
 year-navigation: #"" # set years to appear in dropdown nav
 year-nav-increment: 5 # set increments when auto gen nav years
 
-# ITEM PAGE
-# see _data/metadata-config.csv to define the metadata fields that will display.
-browse-buttons: true # true / false, adds previous/next arrows to items, but doubles build time
-
 # BOOTSWATCH THEMES
 # You can replace the current plain Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
 # Enter one of the following options below: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
