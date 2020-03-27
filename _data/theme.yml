@@ -7,7 +7,7 @@ title: Brock DSL Collection Builder Trial
 metadata: trial-metadata  
 # repository is the github repository's full url: 
 # replace CollectionBuilder with your GitHub username and replace 'collectionbuilder-gh' with the name of your repository
-repository: https://github.com/Kat-A-T/Brock_DSL_CollectionBuilder
+repository: https://github.com/BrockDSL/Brock_DSL_CollectionBuilder
 
 # WEBSITE HEADER and HEAD metadata for SEO
 # tagline, a short phrase that will appear throughout the site in the top banner
@@ -18,7 +18,7 @@ description: "CollectionBuilder-GH is a template for creating small digital coll
 # keywords appear in meta tags
 keywords: "glass;stereo card;Horseshoe Falls;winter;Niagara Falls;Table Rock;Whirlpool Rapids;train;suspension bridge;Horseshoe Falls;Burning Spring;Monteagle House;Terrapin Tower;wooden bridge;Goat Island;Three Sister Islands;rapids;boat;Niagara River Steamer;Point View;Horse Shoe Falls;Free Niagara;Prospect Point;American Falls;Luna Island;Elevator Tower;ice mountain;Goat Island;Pennsylvania"
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: Kat-A-T
+author: BrockDSL
 
 
 # HOME PAGE SECTION
