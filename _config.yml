@@ -6,12 +6,12 @@
 
 
 # creator contact email for meta tags
-email: ktarasuk@brocku.ca
+email: dsl@brocku.ca
 # collection project date, when did you publish this
 collection-date: "January 31st, 2020"
 
 # url is your gh-pages base, following the pattern: username.github.io
-url: https://Kat-A-T.github.io
+url: https://BrockDSL.github.io
 # baseurl is your github repository's name prefixed with a /
 baseurl: /Brock_DSL_CollectionBuilder
 
